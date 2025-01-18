@@ -10,7 +10,5 @@ data class RecipePhoto(
     val id: Long? = null,
 
     val recipeId: Long,
-
-    @Lob
-    val photoData: ByteArray,
+    val photoPath: String
 )
