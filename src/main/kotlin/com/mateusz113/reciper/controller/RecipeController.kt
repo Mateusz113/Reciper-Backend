@@ -33,7 +33,7 @@ class RecipeController @Autowired constructor(
 
     @PutMapping
     fun updateRecipe(
-        @RequestBody recipe: Recipe
+        @RequestBody recipeDTO: RecipeDTO
     ): ResponseEntity<String>? {
         // TODO: Code to update the recipe with the new information provided
         return null
